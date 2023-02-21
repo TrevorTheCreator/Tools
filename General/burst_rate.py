@@ -29,7 +29,8 @@ def check_exist_wordlist(word_list_input, o="mobile"):
     else:
         print("Cannot find specified file. Please verify that it exists.")
 
-
+        
+# pretend to be a mobile phone
 def mobile_agent(word_list_input):
     try:
         with open(args.wordlist) as f:
