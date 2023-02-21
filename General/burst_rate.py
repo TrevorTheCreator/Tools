@@ -61,7 +61,9 @@ def mobile_agent(word_list_input):
 
         driver.quit()
         
-        print("Results are located on your Desktop.")
+        print("Doamines.txt written to your desktop" + "\n")
+        print("Pictures are in ~/Pictures/")
+
 
     except Exception as e:
         print(e)
@@ -93,7 +95,9 @@ def photo_op(word_list_input):
 
         driver.quit()
         
-        print("Results are located on your Desktop.")
+        print("Doamines.txt written to your desktop" + "\n")
+        print("Pictures are in ~/Pictures/")
+
 
     except Exception as e:
         print(e)
