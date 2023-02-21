@@ -60,6 +60,8 @@ def mobile_agent(word_list_input):
             time.sleep(3)
 
         driver.quit()
+        
+        print("Results are located on your Desktop.")
 
     except Exception as e:
         print(e)
@@ -90,6 +92,8 @@ def photo_op(word_list_input):
             time.sleep(3)
 
         driver.quit()
+        
+        print("Results are located on your Desktop.")
 
     except Exception as e:
         print(e)
