@@ -23,7 +23,10 @@ def check_exist_wordlist(word_list_input, o="mobile"):
     #  assume the wordlist is in the same directory as this script
     path = "./" + args.wordlist
     if args.mobile:
-        mobile_agent(args.wordlist)
+        if os.path.isfile(path):
+            mobile_agent(args.wordlist)
+        else:
+            print("Cannot find specified file. Please verify that it exists.")
     elif os.path.isfile(path):
         photo_op(args.wordlist)
     else:
