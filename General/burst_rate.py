@@ -61,7 +61,7 @@ def mobile_agent(word_list_input):
 
         driver.quit()
         
-        print("Doamines.txt written to your desktop" + "\n")
+        print("Domains.txt written to your desktop" + "\n")
         print("Pictures are in ~/Pictures/")
 
 
@@ -95,7 +95,7 @@ def photo_op(word_list_input):
 
         driver.quit()
         
-        print("Doamines.txt written to your desktop" + "\n")
+        print("Domains.txt written to your desktop" + "\n")
         print("Pictures are in ~/Pictures/")
 
 
